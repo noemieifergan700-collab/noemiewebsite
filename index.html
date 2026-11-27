@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Noémie Ifergan</title>
+<meta name="description" content="Noémie Ifergan — biomedical data science, École Polytechnique and Télécom SudParis.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFFFFF;color:#1B1B1B;font-family:'Source Serif 4',Georgia,serif;-webkit-font-smoothing:antialiased}
+a{color:#1F4E9A;text-underline-offset:2px}a:hover{color:#123366}
+</style>
+</head>
+<body>
+<div style="background: #FFFFFF; color: #1B1B1B; font-size: 18px; line-height: 1.6">
+<main style="max-width: 760px; margin: 0 auto; padding: 72px 24px 80px; display: flex; flex-direction: column; gap: 56px">
+
+<header style="display: flex; flex-direction: column; gap: 16px">
+<h1 style="margin: 0; font-size: 40px; line-height: 1.15; font-weight: 600">Noémie Ifergan</h1>
+<p style="margin: 0">I'm a final-year biomedical engineering student in a double degree between École Polytechnique (M2 Biomedical Data Science) and Télécom SudParis. I work on machine learning for biomedical data, and I'm interested in how we can check AI tools that make decisions about people.</p>
+<p style="margin: 0">I'm looking for a six-month research internship starting in April 2027, before a PhD.</p>
+<p style="margin: 0; font-size: 16px; color: #555555"><a href="mailto:noemie.ifergan@telecom-sudparis.eu" style="color: #1F4E9A">Email</a> · <a href="Ifergan_Noemie_CV.pdf" target="_blank" rel="noopener" style="color: #1F4E9A">CV (PDF)</a> · <a href="https://www.linkedin.com/in/no%C3%A9mie-ifergan-5b480829b" target="_blank" rel="noopener" style="color: #1F4E9A">LinkedIn</a> · Paris</p>
+</header>
+
+<section aria-labelledby="research" style="display: flex; flex-direction: column; gap: 36px">
+<h2 id="research" style="margin: 0; padding-top: 16px; border-top: 1px solid #D9D9D9; font-size: 22px; font-weight: 600">Research</h2>
+
+<article style="display: flex; flex-direction: column; gap: 8px">
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">Detecting Alzheimer's disease from resting-state EEG</h3>
+<p style="margin: 0; font-size: 16px; font-style: italic; color: #555555">M2 project, École Polytechnique · since October 2026</p>
+<p style="margin: 0">I compare two ways of reading EEG — a connectivity measure (phase lag index) and an entropy measure of how irregular the signal is — for telling 28 patients apart from 22 healthy controls, with SVMs and leave-one-out cross-validation. Entropy in the theta band separates the groups when brain regions are taken in pairs; connectivity doesn't. The best score (98% balanced accuracy) was picked out of 84 configurations, so I treat it as optimistic until it holds on independent data.</p>
+</article>
+
+<article style="display: flex; flex-wrap: wrap; gap: 20px 32px">
+<div style="flex: 999 1 380px; min-width: 0; display: flex; flex-direction: column; gap: 8px">
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">Brain connectivity after neurofeedback training</h3>
+<p style="margin: 0; font-size: 16px; font-style: italic; color: #555555">Research project, Télécom SudParis · with Rose Fakhrian and Kerman Arruartena, supervised by Nesma Houmani and Rita Yabouri</p>
+<p style="margin: 0">Using EEG from a double-blind neurofeedback trial on older adults, we turned 9,920 connectivity matrices into graphs and looked for changes after training: clustering, shortest paths, betweenness. Spectral biclustering picked out a group of five trained participants, but no method cleanly separated the trained and control groups.</p>
+<p style="margin: 0; font-size: 16px"><a href="Neurofeedback_connectivity_report.pdf" target="_blank" rel="noopener" style="color: #1F4E9A">Report (PDF)</a></p>
+</div>
+<figure style="flex: 1 1 240px; max-width: 320px; margin: 0; display: flex; flex-direction: column; gap: 6px">
+<img src="connectivity-graphs.jpg" alt="Two EEG connectivity graphs over the scalp electrode layout, before and after training" style="width: 100%; height: auto; border: 1px solid #E5E5E5">
+<figcaption style="font-size: 14px; line-height: 1.45; color: #555555">Connectivity graphs for one participant, before and after training.</figcaption>
+</figure>
+</article>
+
+<article style="display: flex; flex-direction: column; gap: 8px">
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">Luminescent nanorods for mapping flow</h3>
+<p style="margin: 0; font-size: 16px; font-style: italic; color: #555555">Lab project, LPMC, École Polytechnique · supervised by Marcello Bonetti · in progress</p>
+<p style="margin: 0">I synthesize LaPO₄ nanorods doped with europium, or with erbium and ytterbium, and characterize them by electron microscopy, X-ray diffraction and photoluminescence. The group uses these rods as orientation probes: the polarization of their light shows how they line up in a flowing liquid, which gives a map of shear stress — including around living cells.</p>
+</article>
+</section>
+
+<section aria-labelledby="projects" style="display: flex; flex-direction: column; gap: 28px">
+<h2 id="projects" style="margin: 0; padding-top: 16px; border-top: 1px solid #D9D9D9; font-size: 22px; font-weight: 600">Other projects</h2>
+
+<article style="display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">Autonomous car on a microcontroller</h3>
+<p style="margin: 0; font-size: 16px; font-style: italic; color: #555555">Embedded systems, Télécom SudParis</p>
+<p style="margin: 0">An autonomous car running on an Arduino microcontroller, programmed directly in Assembly.</p>
+</article>
+
+<article style="display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">Nanopore sequencing pipeline</h3>
+<p style="margin: 0; font-size: 16px; font-style: italic; color: #555555">Multi-omics course, École Polytechnique · 2026</p>
+<p style="margin: 0">A Python pipeline on 27,012 Nanopore reads of the 16S rRNA gene: quality checks, length filtering, clustering, alignment and BLAST, which identified five bacterial genera in the sample.</p>
+</article>
+
+<article style="display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">Bias in AI for intensive care</h3>
+<p style="margin: 0; font-size: 16px; font-style: italic; color: #555555">Frontiers of AI course, group project · in progress</p>
+<p style="margin: 0">How severity scores and ML models used in intensive care can be biased by sex. My part covers methods to correct that bias, and where they fall short.</p>
+</article>
+
+</section>
+
+<section aria-labelledby="experience" style="display: flex; flex-direction: column; gap: 20px">
+<h2 id="experience" style="margin: 0; padding-top: 16px; border-top: 1px solid #D9D9D9; font-size: 22px; font-weight: 600">Experience</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 4px 24px; justify-content: space-between">
+<p style="margin: 0; flex: 999 1 360px"><strong style="font-weight: 600">Podproza</strong>, Prague — machine learning &amp; blockchain engineer. Fraud-detection classifiers, a pipeline for the full Tron blockchain, and an LLM agent with checked outputs.</p>
+<p style="margin: 0; font-size: 16px; color: #555555">2026</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 4px 24px; justify-content: space-between">
+<p style="margin: 0; flex: 999 1 360px"><strong style="font-weight: 600">Cartier</strong>, Paris — junior product owner for internal apps.</p>
+<p style="margin: 0; font-size: 16px; color: #555555">2025–2026</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 4px 24px; justify-content: space-between">
+<p style="margin: 0; flex: 999 1 360px"><strong style="font-weight: 600">Kaufman &amp; Broad</strong>, La Défense — AI intern. LLM pipelines summarizing 15,000+ administrative documents.</p>
+<p style="margin: 0; font-size: 16px; color: #555555">2024</p>
+</div>
+</section>
+
+<section aria-labelledby="education" style="display: flex; flex-direction: column; gap: 20px">
+<h2 id="education" style="margin: 0; padding-top: 16px; border-top: 1px solid #D9D9D9; font-size: 22px; font-weight: 600">Education</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 4px 24px; justify-content: space-between">
+<p style="margin: 0; flex: 999 1 360px"><strong style="font-weight: 600">École Polytechnique</strong> — M2 Biomedical Engineering, Biomedical Data Science</p>
+<p style="margin: 0; font-size: 16px; color: #555555">2026–2027</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 4px 24px; justify-content: space-between">
+<p style="margin: 0; flex: 999 1 360px"><strong style="font-weight: 600">Télécom SudParis</strong> — engineering degree</p>
+<p style="margin: 0; font-size: 16px; color: #555555">2023–2027</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 4px 24px; justify-content: space-between">
+<p style="margin: 0; flex: 999 1 360px"><strong style="font-weight: 600">Lycée Charlemagne</strong> — classe préparatoire PC*</p>
+<p style="margin: 0; font-size: 16px; color: #555555">2020–2023</p>
+</div>
+</section>
+
+</main>
+</div>
+</body>
+</html>
